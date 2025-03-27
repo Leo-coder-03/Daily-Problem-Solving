@@ -1,0 +1,13 @@
+27 March 2025
+Learned about Boyer-Moore Majority Voting Algorithm - Find the majority element in the list.(Problem 2780 - minimum index of a valid split)
+  for (int num : nums) {
+            if (num == x) {
+                count++;
+            } else {
+                count--;
+            }
+            if (count == 0) {
+                x = num;
+                count = 1;
+            }
+        }

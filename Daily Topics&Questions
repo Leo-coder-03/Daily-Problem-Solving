@@ -11,3 +11,6 @@ Learned about Boyer-Moore Majority Voting Algorithm - Find the majority element 
                 count = 1;
             }
         }
+29 March 2025
+No. of subarrays in a n-sized array = n*(n+1)/2
+Monotonic stack - Leetcode 2818
